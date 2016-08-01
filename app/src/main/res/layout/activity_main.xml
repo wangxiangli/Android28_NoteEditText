@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.bush.android28_noteedittext.NoteEditText
+        android:id="@+id/noteEditText_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="输入留言："
+        app:strokeWidth="2dp"
+        app:padding="10dp"
+        app:lineColor="@color/colorAccent"
+
+        />
+</RelativeLayout>
